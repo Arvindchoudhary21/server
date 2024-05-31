@@ -95,7 +95,7 @@ app.get("/test" , (req,res) => {
 app.post("/runcode", function (req, res) {
     var code = req.body.code;
     var input = req.body.Input;
-    var lang = req.body.lang; // Adjusted to match the expected field name in editor.js
+    var lang = req.body.lang; // Adjusted to match the expected field name in editor.j
     console.log(lang);
     try {
         if (lang == "java") {
